@@ -1,6 +1,6 @@
 # L1 - Corredor
 
-![praca|10x10](https://github.com/qxcodefup/arcade/assets/32993157/26d5d48a-f5b8-4842-898c-351270357d56)
+![praca](https://github.com/qxcodefup/arcade/assets/32993157/26d5d48a-f5b8-4842-898c-351270357d56)
 
 Um corredor está treinando na Praça do Leão, um local retangular com 300 metros de perímetro (100 metros de comprimento e 50 metros de largura). O corredor começa em uma posição específica e corre uma certa distância. Dependendo do sentido em que ele corre, sua posição pode aumentar ou diminuir. A posição é medida a partir do canto superior esquerdo da praça.
 
