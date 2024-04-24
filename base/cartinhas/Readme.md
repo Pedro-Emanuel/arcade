@@ -1,4 +1,4 @@
-# L2 Escrevendo @cartinhas
+# L2 - Escrevendo @cartinhas
 
 ## Motivação
 
@@ -39,4 +39,34 @@ struct Carta criar_carta(char remetente[], char destinatario[], char mensagem[])
 
 Com carinho,
 [remetente].
+```
+
+## Exemplos
+
+``` txt
+>>>>>>>>
+Lucas
+Júlia
+escrevo estas palavras com todo o meu amor. Mesmo longe, você está sempre em meus pensamentos.
+========
+Júlia,
+
+escrevo estas palavras com todo o meu amor. Mesmo longe, você está sempre em meus pensamentos.
+
+Com carinho,
+Lucas.
+<<<<<<<<
+
+>>>>>>>>
+Júlia
+Lucas
+escrevo estas palavras para expressar a saudade que sinto de você. Espero que esta carta traga um pouco de conforto até que possamos nos encontrar novamente.
+========
+Lucas,
+
+escrevo estas palavras para expressar a saudade que sinto de você. Espero que esta carta traga um pouco de conforto até que possamos nos encontrar novamente.
+
+Com carinho,
+Júlia.
+<<<<<<<<
 ```
