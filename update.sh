@@ -1,11 +1,5 @@
-user="qxcodefup"
-repo="arcade"
+#!/bin/bash
 
-indexer Readme.md -t
-mdpp Readme.md
-mdpp base/* -q
-
-# find and delete folders with name .cache
-# find . -type d -name ".cache" -exec rm -rf {} \;
-
-find base -maxdepth 2 -name Readme.md -execdir mapi_def $user $repo {} \;
+echo "Copying database..."
+cp ../ghost/Readme.md Readme.md
+rsync -au --delete ../ghost/base/ base
