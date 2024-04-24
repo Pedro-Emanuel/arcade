@@ -2,9 +2,9 @@
 #include <string.h>
 
 struct Carta {
-    char remetente[50];
-    char destinatario[100];
-    char mensagem[500];
+    char remetente[10];
+    char destinatario[10];
+    char mensagem[200];
 };
 
 struct Carta criar_carta(char remetente[], char destinatario[], char mensagem[]) {
@@ -22,7 +22,7 @@ void ler_carta(struct Carta carta) {
 }
 
 int main() {
-    char remetente[50], destinatario[100], mensagem[500];
+    char remetente[10], destinatario[10], mensagem[200];
     scanf("%[^\n] %[^\n] %[^\n]", remetente, destinatario, mensagem);
     struct Carta carta = criar_carta(remetente, destinatario, mensagem);
     ler_carta(carta);

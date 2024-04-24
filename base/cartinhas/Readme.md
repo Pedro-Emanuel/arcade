@@ -26,7 +26,7 @@ struct Carta criar_carta(char remetente[], char destinatario[], char mensagem[])
 
 - Garantias:
   - Os nomes dos remetentes e destinatários terão no máximo 10 caracteres.
-  - A mensagem terá no máximo 100 caracteres.
+  - A mensagem terá no máximo 200 caracteres.
 
 ## Saída
 
@@ -34,7 +34,6 @@ struct Carta criar_carta(char remetente[], char destinatario[], char mensagem[])
 
 ```css
 [destinatário],
-
 [mensagem]
 
 Com carinho,
@@ -50,7 +49,6 @@ Júlia
 escrevo estas palavras com todo o meu amor. Mesmo longe, você está sempre em meus pensamentos.
 ========
 Júlia,
-
 escrevo estas palavras com todo o meu amor. Mesmo longe, você está sempre em meus pensamentos.
 
 Com carinho,
@@ -63,7 +61,6 @@ Lucas
 escrevo estas palavras para expressar a saudade que sinto de você. Espero que esta carta traga um pouco de conforto até que possamos nos encontrar novamente.
 ========
 Lucas,
-
 escrevo estas palavras para expressar a saudade que sinto de você. Espero que esta carta traga um pouco de conforto até que possamos nos encontrar novamente.
 
 Com carinho,
