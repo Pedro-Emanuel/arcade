@@ -339,12 +339,16 @@ Conteúdo sugeridos
 
 ## 27. Ponteiros
 
-- [L2 - imprimir vetor @formatado](base/formatado/Readme.md)
+- [L1 - Troca de valores - @swap](base/swap/Readme.md)
+- [L2 - Imprimir vetor @formatado](base/formatado/Readme.md)
+- [L2 - Competição de @pesca](base/pesca/Readme.md)
+- [L2 - Ordenação V1](base/ordenacao_v1/Readme.md)
+- [L3 - Ordenação V2](base/ordenacao_v2/Readme.md)
+- [L3 - Vetor de strings com variados tamanhos - @realoc](base/realoc/Readme.md)
+- Revisar:
+- [L2 - Função que retorna vários valores por @endereco](base/endereco/Readme.md)
 - [L4 - A @porta Matemática](base/porta/Readme.md)
 - [L1 - @duelo](base/duelo/Readme.md)
-- [L1 - @swap - Troca de valores de variáveis](base/swap/Readme.md)
-- [L2 - Função que retorna vários valores por @endereco](base/endereco/Readme.md)
-- [L2 - @realoc - Vetor de strings com variados tamanhos](base/realoc/Readme.md)
 
 ## 28. Recursão
 
