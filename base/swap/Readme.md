@@ -13,8 +13,6 @@
 
 Implemente a função 'troca', que recebe como parâmetro dois ponteiros para inteiros e troca os valores das variáveis apontadas por eles.
 
-```c
-
 ## Exemplos
 
 ``` txt
