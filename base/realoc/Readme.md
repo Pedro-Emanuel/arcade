@@ -11,7 +11,17 @@
 
 ## Ação
 
-Leia um conjunto de strings e aloque apenas a quantidade de memória necessária para armazenar estas strings. Em seguida ordene e imprima as strings. Somente serão aceitas respostas com alocação dinâmica das strings (verificação manual).
+Leia um conjunto de strings e aloque apenas a quantidade de memória necessária para armazenar estas strings.
+
+- Implmente a função `ler_string()`. Ela recebe um inteiro `quantidade` representando quantas strings serão lidas e um vetor onde serão armazenadas.
+  - Para cada string, primeiro leia um inteiro `tamanho` indicando quantos caracteres a string tem, seguido da string.
+  - A função deve alocar a memória necessária para armazenar a string e guardar o endereço desta memória no vetor.
+  - Ao final, cada índice do vetor deve conter um ponteiro para a string correspondente.
+
+Em seguida ordene e imprima as strings.
+
+- Implemente a função `ordenar()`. Ela recebe um vetor de strings e a quantidade de strings.
+  - A função deve ordenar os nomes em ordem crescente (ou seja, na ordem do dicionário).
 
 ## Entrada
 
@@ -47,14 +57,6 @@ Osvaldo Montenegro
 
 ## Dicas
 
-- Declare um vetor com n ponteiros para char:
-  char* v\[n\];
-- Caso queira alocar este vetor dinamicamente, use um vetor contendo ponteiros para caracteres:
-
-```c  
-char **v = (char**) malloc( n * sizeof(char*) );
-```
-
 - Para cada string,
       - leia o tamanho da string;
       - aloque memória para armazenar esta string (lembre de alocar um caractere a mais para o terminador);
@@ -67,13 +69,13 @@ char **v = (char**) malloc( n * sizeof(char*) );
       - note que não é válido trocar o conteúdo, pois as strings não têm o mesmo tamanho.
 
 ```c
-char* v[n];
+char* vetor[quantidade];
     +--+        +-+-+-+-+-+
-    | +-------->|J|O|A|O|0|    v[0] = (char*) malloc(5*sizeof(char));
+    | +-------->|J|O|A|O|0|    vetor[0] = (char*) malloc(5*sizeof(char));
     +--+        +-+-+-+-+-+
     | +-------->
     +--+        +-+-+-+-+-+-+
-    | +-------->|M|A|R|I|A|0|  v[2] = (char*)malloc(6*sizeof(char));
+    | +-------->|M|A|R|I|A|0|  vetor[1] = (char*)malloc(6*sizeof(char));
     +--+        +-+-+-+-+-+-+
       .
       .

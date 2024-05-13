@@ -1,0 +1,1 @@
+char* torneio_pesca(int* pescador1, int* tam1, int* pescador2, int* tam2);

@@ -1,0 +1,1 @@
+int* ordenar(int* vetor);

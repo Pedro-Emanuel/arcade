@@ -1,0 +1,1 @@
+void print_vet(int* vetor, int* tamanho);
